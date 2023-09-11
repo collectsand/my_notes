@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d010d91d91b0f6c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "饥荒联机版.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test/ttttt.md",
+                "file": "饥荒联机版.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test/ttttt.md",
+                "file": "饥荒联机版.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test/ttttt.md"
+                "file": "饥荒联机版.md"
               }
             }
           }
@@ -146,10 +159,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8f993c1bfd479fc8",
+  "active": "d010d91d91b0f6c2",
   "lastOpenFiles": [
-    "未命名.canvas",
     "test/ttttt.md",
+    "饥荒联机版.md",
+    "未命名.canvas",
     "test",
     "饥荒联机版经验心得.md"
   ]
