@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ubuntu20.04安装LLVM全家桶.md",
+                "file": "安装软件/Ubuntu20.04安装LLVM全家桶.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ubuntu20.04安装LLVM全家桶.md",
+                "file": "安装软件/Ubuntu20.04安装LLVM全家桶.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ubuntu20.04安装LLVM全家桶.md",
+                "file": "安装软件/Ubuntu20.04安装LLVM全家桶.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ubuntu20.04安装LLVM全家桶.md"
+                "file": "安装软件/Ubuntu20.04安装LLVM全家桶.md"
               }
             }
           }
@@ -174,7 +174,7 @@
   "active": "71741d5a1e59df5a",
   "lastOpenFiles": [
     "安装软件/Ubunut20.04安装高版本CMake.md",
-    "Ubuntu20.04安装LLVM全家桶.md",
+    "安装软件/Ubuntu20.04安装LLVM全家桶.md",
     "未命名.md",
     "安装软件",
     "test/ttttt.md",
