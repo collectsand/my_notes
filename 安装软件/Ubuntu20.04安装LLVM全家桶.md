@@ -3,9 +3,7 @@
 ```
 wget https://apt.llvm.org/llvm.sh
 chmod +x llvm.sh
-sudo ./llvm.sh <version> #输入版本号,比如16
-sudo apt-get update
-sudo apt-get upgrade
+sudo ./llvm.sh <version number>
 ```
 
 
