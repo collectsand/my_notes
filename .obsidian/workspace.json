@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,16 +171,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "71741d5a1e59df5a",
+  "active": "b085bf536674f387",
   "lastOpenFiles": [
-    "安装软件/Ubuntu20.04安装LLVM全家桶.md",
+    "游戏/饥荒联机版.md",
     "安装软件/Ubunut20.04安装高版本CMake.md",
+    "安装软件/Ubuntu20.04安装LLVM全家桶.md",
     "未命名.md",
     "安装软件",
     "test/ttttt.md",
     "test",
     "游戏",
-    "游戏/饥荒联机版.md",
     "游戏/test/ttttt.md",
     "未命名.canvas",
     "游戏/test",
