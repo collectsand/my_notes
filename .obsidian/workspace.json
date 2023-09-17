@@ -153,6 +153,16 @@
                 "file": "安装软件/Ubunut20.04安装高版本CMake.md"
               }
             }
+          },
+          {
+            "id": "8c1692893c1ef553",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       }
@@ -173,9 +183,9 @@
   },
   "active": "b085bf536674f387",
   "lastOpenFiles": [
-    "游戏/饥荒联机版.md",
-    "安装软件/Ubunut20.04安装高版本CMake.md",
     "安装软件/Ubuntu20.04安装LLVM全家桶.md",
+    "安装软件/Ubunut20.04安装高版本CMake.md",
+    "游戏/饥荒联机版.md",
     "未命名.md",
     "安装软件",
     "test/ttttt.md",
