@@ -1,6 +1,10 @@
 {
   "accentColor": "",
-  "theme": "obsidian",
-  "cssTheme": "Minimal",
-  "baseFontSize": 17
+  "theme": "moonstone",
+  "cssTheme": "",
+  "baseFontSize": 19,
+  "monospaceFontFamily": "Cascadia Code",
+  "enabledCssSnippets": [
+    "Warmth"
+  ]
 }
