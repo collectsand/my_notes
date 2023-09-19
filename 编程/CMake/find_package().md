@@ -86,7 +86,7 @@ target_link_libraries(myApp PRIVATE OpenCV::opencv)
 
 二、***那为啥不需要使用target_include_directory()来引入头文件？***
 
-在CMake中,find_package后通常不需要再显式使用target_include_directories来添加头文件目录,这是因为现代CMake通过导入目标(IMPORTED targets)已经自动处理了依赖头文件。
+>在CMake中,find_package后通常不需要再显式使用target_include_directories来添加头文件目录,这是因为现代CMake通过导入目标(IMPORTED targets)已经自动处理了依赖头文件。
 
 原因有以下几点:
 
