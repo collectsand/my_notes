@@ -75,7 +75,10 @@ find_package()不能直接把头文件添加到工程中,它主要用于定位�
 
 一个现代CMake的用法是:
 
-`find_package(OpenCV REQUIRED) target_link_libraries(myApp PRIVATE OpenCV::opencv)`
+```cmake
+find_package(OpenCV REQUIRED) 
+target_link_libraries(myApp PRIVATE OpenCV::opencv)
+```
 
 通过IMPORTED目标opencv进行连接,这样就可以自动处理好依赖关系了。
 

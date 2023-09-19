@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d010d91d91b0f6c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "游戏/饥荒联机版.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b085bf536674f387",
             "type": "leaf",
             "state": {
@@ -37,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程/CMake/find_package().md",
+                "file": "编程/CMake/CMake导入第三方库具体流程.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332
+    "width": 270.5
   },
   "right": {
     "id": "e90597c52c29f88d",
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "安装软件/Ubunut20.04安装高版本CMake.md",
+                "file": "编程/CMake/CMake导入第三方库具体流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "安装软件/Ubunut20.04安装高版本CMake.md",
+                "file": "编程/CMake/CMake导入第三方库具体流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "安装软件/Ubunut20.04安装高版本CMake.md"
+                "file": "编程/CMake/CMake导入第三方库具体流程.md"
               }
             }
           },
@@ -193,15 +181,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b085bf536674f387",
+  "active": "94ab53f93d8e83b0",
   "lastOpenFiles": [
     "编程/CMake/find_package().md",
     "编程/CMake/CMake导入第三方库具体流程.md",
     "安装软件/Ubunut20.04安装高版本CMake.md",
+    "游戏/饥荒联机版.md",
     "编程/CMake",
     "编程",
     "安装软件/Ubuntu20.04安装LLVM全家桶.md",
-    "游戏/饥荒联机版.md",
     "安装软件",
     "test/ttttt.md",
     "test",
