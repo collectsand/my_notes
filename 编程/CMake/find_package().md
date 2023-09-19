@@ -55,16 +55,17 @@ find_package(Boost 1.69.0 COMPONENTS date_time)
 
 ## 原理相关
 
+
+
+>What Does find_package() Do?
+If a package is found by CMake through find_package, it results in the creation of several CMake environment variables that give information about the found package. These environment variables can be utilized later in the CMake script. The environment variables describe where the packages exported header files are, where source files are, what libraries the package depends on, and the paths of those libraries. The names always follow the convention of PACKAGE NAME_PROPERTY:
+
+>* NAME_FOUND - Set to true if the library is found, otherwise false
+* NAME_INCLUDE_DIRS or NAME_INCLUDES - The include paths exported by the package 
+* NAME_LIBRARIES or NAME_LIBS - The libraries exported by the package
+* NAME_DEFINITIONS - ?
+
  参见 http://wiki.ros.org/catkin/CMakeLists.txt 
-
-What Does find_package() Do?
-If a package is found by CMake through find_package, it results in the creation of several CMake environment variables that give information about the found package. These environment variables can be utilized later in the CMake script. The environment variables describe where the packages exported header files are, where source files are, what libraries the package depends on, and the paths of those libraries. The names always follow the convention of <PACKAGENAME>_<PROPERTY>:
-
-* <NAME>_FOUND - Set to true if the library is found, otherwise false
-- <NAME>_INCLUDE_DIRS or <NAME>_INCLUDES - The include paths exported by the package 
--<NAME>_LIBRARIES or <NAME>_LIBS - The libraries exported by the package
--<NAME>_DEFINITIONS - ?
-
 
 
 
