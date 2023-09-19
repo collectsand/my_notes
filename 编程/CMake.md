@@ -1,5 +1,7 @@
 ## find_package()
 
+### 基本用法
+
 find_package()是CMake中用于定位第三方库的命令。它的主要作用有:
 
 1. 定位第三方库的文件路径
@@ -48,3 +50,8 @@ find_package(Boost 1.69.0 COMPONENTS date_time)
 ```
 
 所以find_package通过不同参数可以非常方便地定位第三方库文件,是CMake中重要的命令。
+
+
+### 原理相关
+
+
