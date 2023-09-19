@@ -54,4 +54,58 @@ find_package(Boost 1.69.0 COMPONENTS date_time)
 
 ### 原理相关
 
+一、***find_package()能直接把头文件添加进去吗？为什么find完了以后还得使用target_link_library()来连接？***
 
+find_package()不能直接把头文件添加到工程中,它主要用于定位第三方库的路径。连接库还需要使用target_link_libraries()。
+
+这是因为find_package()仅仅是找到了第三方库的路径,但还没有把这个库actually添加到工程中去。它通常会设置两个变量:
+
+- XXX_INCLUDE_DIRS - 库的头文件目录
+- XXX_LIBRARIES - 库的库文件路径
+
+这就包含了第三方库的位置信息,但还没有引入工程。
+
+为什么需要区分这两个步骤呢?
+
+1. 分离定位和链接可以更灵活地控制include和link的顺序
+2. target_link_libraries与导入的target捆绑,可以避免全局污染
+3. 将第三方库封装为target,可以优化编译流程
+
+所以find_package()+target_link_libraries()是现代CMake推荐的方式,通过导入目标进行链接。
+
+一个现代CMake的用法是:
+
+`find_package(OpenCV REQUIRED) target_link_libraries(myApp PRIVATE OpenCV::opencv)`
+
+通过IMPORTED目标opencv进行连接,这样就可以自动处理好依赖关系了。
+
+所以find_package只是定位,真正使用第三方库还需要target_link_libraries。这是现代CMake连接第三方库的推荐方式。
+
+二、***那为啥不需要使用target_include_directory()来引入头文件？***
+
+在CMake中,find_package后通常不需要再显式使用target_include_directories来添加头文件目录,这是因为现代CMake通过导入目标(IMPORTED targets)已经自动处理了依赖头文件。
+
+原因有以下几点:
+
+1. target_include_directories是用来将include目录添加到特定目标(target)的,而不是整个项目。但导入的目标已经包含了头文件信息,可以直接使用,不需要再添加到其他目标中。
+
+2. 导入的目标里已经包括了对应的include目录,CMake能自动处理目标之间的依赖,所以可以不用再手动添加include。
+
+3. 现代CMake提倡面向目标编程,而不是全局include目录,所以尽量避免全局include污染。
+
+4. 一些编译系统如Visual Studio,可以通过导入目标自动获取include目录,不需要手动指定。
+
+以OpenCV库为例:
+
+```
+find_package(OpenCV REQUIRED) 
+
+# 不需要再添加include目录
+target_link_libraries(myApp OpenCV::opencv)
+```
+
+通过导入opencv目标,CMake就能自动处理好依赖的include目录,不需要也不推荐再另外添加include。
+
+但是,如果目标导入有问题,或者跨平台移植,可能还是需要手动添加include目录的。但对于现代CMake,能够不使用target_include_directories则最好。
+
+所以导入目标后不需要再手动include头文件目录,是现代CMake面向目标编程的一大特点。
