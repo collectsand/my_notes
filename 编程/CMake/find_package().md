@@ -22,7 +22,7 @@ find_package通过查找路径或者环境变量,来确定第三方库的头文�
 
 基本语法:
 
-```
+```cmake
 find_package(<name> [major.minor] [EXACT] [QUIET] [REQUIRED] 
              [[COMPONENTS] [components...]] 
              [OPTIONAL_COMPONENTS components...]
@@ -38,7 +38,7 @@ find_package(<name> [major.minor] [EXACT] [QUIET] [REQUIRED]
 
 例如:
 
-```
+```cmake
 # 定位zlib
 find_package(ZLIB) 
 
@@ -97,7 +97,7 @@ find_package()不能直接把头文件添加到工程中,它主要用于定位�
 
 以OpenCV库为例:
 
-```
+```cmake
 find_package(OpenCV REQUIRED) 
 
 # 不需要再添加include目录
