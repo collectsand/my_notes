@@ -33,7 +33,7 @@ find_package(<name> [major.minor] [EXACT] [QUIET] [REQUIRED]
  major.minor - 指定版本号
  EXACT - 精确匹配版本
  QUIET - 不输出信息
- REQUIRED - 必须找到,否则报错
+ **REQUIRED - 必须找到,否则报错**
  COMPONENTS - 需要查找的特定库,如Boost的日期库
 
 例如:
