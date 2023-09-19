@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5
+    "width": 270.5,
+    "collapsed": true
   },
   "right": {
     "id": "e90597c52c29f88d",
@@ -181,7 +182,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "94ab53f93d8e83b0",
+  "active": "53097c71d29baa44",
   "lastOpenFiles": [
     "编程/CMake/CMake导入第三方库具体流程.md",
     "编程/CMake/find_package().md",

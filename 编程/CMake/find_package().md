@@ -1,6 +1,6 @@
-## find_package()
+# find_package()
 
-### 基本用法
+## 基本用法
 
 find_package()是CMake中用于定位第三方库的命令。它的主要作用有:
 
@@ -52,7 +52,18 @@ find_package(Boost 1.69.0 COMPONENTS date_time)
 所以find_package通过不同参数可以非常方便地定位第三方库文件,是CMake中重要的命令。
 
 
-### 原理相关
+## 原理相关
+
+***What Does find_package() Do?*** 参见 http://wiki.ros.org/catkin/CMakeLists.txt
+
+If a package is found by CMake through find_package, it results in the creation of several CMake environment variables that give information about the found package. These environment variables can be utilized later in the CMake script. The environment variables describe where the packages exported header files are, where source files are, what libraries the package depends on, and the paths of those libraries. The names always follow the convention of <PACKAGENAME>_<PROPERTY>:
+
+1. <NAME>_FOUND - Set to true if the library is found, otherwise false 
+2. <NAME>_INCLUDE_DIRS or <NAME>_INCLUDES - The include paths exported by the package
+3. <NAME>_LIBRARIES or <NAME>_LIBS - The libraries exported by the package
+4. <NAME>_DEFINITIONS - ?
+
+## Q&A
 
 一、***find_package()能直接把头文件添加进去吗？为什么find完了以后还得使用target_link_library()来连接？***
 
