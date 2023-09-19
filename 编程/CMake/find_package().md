@@ -55,15 +55,15 @@ find_package(Boost 1.69.0 COMPONENTS date_time)
 
 ## 原理相关
 
+### find_package()到底干了啥？
 
+What Does find_package() Do?
+If a package is found by CMake through find_package, it results in the creation of several CMake environment variables that give information about the found package. These environment variables can be utilized later in the CMake script. The environment variables describe where the packages exported header files are, where source files are, what libraries the package depends on, and the paths of those libraries. The names always follow the convention of ==PACKAGE NAME_PROPERTY==:
 
->What Does find_package() Do?
-If a package is found by CMake through find_package, it results in the creation of several CMake environment variables that give information about the found package. These environment variables can be utilized later in the CMake script. The environment variables describe where the packages exported header files are, where source files are, what libraries the package depends on, and the paths of those libraries. The names always follow the convention of PACKAGE NAME_PROPERTY:
-
->* NAME_FOUND - Set to true if the library is found, otherwise false
-* NAME_INCLUDE_DIRS or NAME_INCLUDES - The include paths exported by the package 
-* NAME_LIBRARIES or NAME_LIBS - The libraries exported by the package
-* NAME_DEFINITIONS - ?
+* ==NAME_FOUND== - Set to true if the library is found, otherwise false
+* ==NAME_INCLUDE_DIRS== or ==NAME_INCLUDES== - The include paths exported by the package 
+* ==NAME_LIBRARIES== or ==NAME_LIBS== - The libraries exported by the package
+* ==NAME_DEFINITIONS== - ?
 
  参见 http://wiki.ros.org/catkin/CMakeLists.txt 
 
@@ -71,7 +71,7 @@ If a package is found by CMake through find_package, it results in the creation 
 
 ## Q&A
 
-一、***find_package()能直接把头文件添加进去吗？为什么find完了以后还得使用target_link_library()来连接？***
+***一、find_package()能直接把头文件添加进去吗？为什么find完了以后还得使用target_link_library()来连接？***
 
 find_package()不能直接把头文件添加到工程中,它主要用于定位第三方库的路径。连接库还需要使用target_link_libraries()。
 
@@ -101,7 +101,7 @@ target_link_libraries(myApp PRIVATE OpenCV::opencv)
 
 所以find_package只是定位,真正使用第三方库还需要target_link_libraries。这是现代CMake连接第三方库的推荐方式。
 
-二、***那为啥不需要使用target_include_directory()来引入头文件？***
+***二、那为啥不需要使用target_include_directory()来引入头文件？***
 
 >在CMake中,find_package后通常不需要再显式使用target_include_directories来添加头文件目录,这是因为现代CMake通过导入目标(IMPORTED targets)已经自动处理了依赖头文件。
 
