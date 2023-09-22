@@ -45,3 +45,9 @@
   ]
 }
 ```
+
+# 踩坑
+
+catkin_make在后台调用ninja来执行实际的编译,所以ninja并不支持catkin_make的"--pkg"参数。
+
+要只编译某个包,需要在catkin_make层面指定,不要把"--pkg"参数传给ninja。
