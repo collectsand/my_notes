@@ -1,6 +1,8 @@
 
 # 常用参数
 
+***注意：所有参数都可以在vscode的intellisense中找到描述，参数数量不多，所以请认真看大胆写***
+
 - **label**: The task's label used in the user interface.
 - **type**: The task's type. For a custom task, this can either be `shell` or `process`. If `shell` is specified, the command is interpreted as a shell command (for example: bash, cmd, or PowerShell). If `process` is specified, the command is interpreted as a process to execute.
 - **command**: The actual command to execute.
@@ -48,6 +50,6 @@
 
 # 踩坑
 
-catkin_make在后台调用ninja来执行实际的编译,所以ninja并不支持catkin_make的"--pkg"参数。
+catkin_make在后台调用ninja来执行实际的编译,所以ninja并不支持catkin_make的"--pkg"参数。**也就是说不要让--use-ninja和--pkg同时出现**
 
 要只编译某个包,需要在catkin_make层面指定,不要把"--pkg"参数传给ninja。
