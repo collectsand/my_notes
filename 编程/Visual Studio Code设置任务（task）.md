@@ -17,13 +17,6 @@
 - **cwd - 设置任务的工作目录,必填参数,要设置为 catkin 工作空间的路径。**
 - env - 设置额外的环境变量,可以覆盖默认的环境变量。
 - shell - 设置使用的 shell,默认是系统默认 shell。
-- executable - 要运行的程序路径,默认是命令本身的名称。
-- args - 程序的参数数组。
-- reveal - 任务完成后是否跳转到输出面板,默认false。
-- problemMatcher - 定义输出解析规则,用于 VSCode 识别错误和警告。
-- group - 任务分组,用于排序和过滤。
-- presentation - 设置任务运行时的显示样式。
-- echoCommand - 是否在输出面板显示执行的命令。
 
 # 创建catkin_make自动构建task
 
