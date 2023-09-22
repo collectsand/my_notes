@@ -1,7 +1,7 @@
 {
   "accentColor": "",
-  "theme": "moonstone",
-  "cssTheme": "Things",
+  "theme": "obsidian",
+  "cssTheme": "Atom",
   "baseFontSize": 19,
   "monospaceFontFamily": "Cascadia Code",
   "enabledCssSnippets": [
