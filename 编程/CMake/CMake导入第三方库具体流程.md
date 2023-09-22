@@ -1,5 +1,5 @@
 
-***摘要：首先使用find_package()来定位第三方库，然后使用target_link_libraries()导入第三方库***
+***概括：首先使用find_package()来定位第三方库，然后使用target_link_libraries()导入第三方库***
 
 好的,关于CMake中导入目标的用法,我来给一个具体的 C++ 导入第三方库的例子:
 
