@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Visual Studio Code设置任务（task）.md",
+                "file": "编程/Visual Studio Code设置任务（task）.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Visual Studio Code设置任务（task）.md",
+                "file": "编程/Visual Studio Code设置任务（task）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Visual Studio Code设置任务（task）.md",
+                "file": "编程/Visual Studio Code设置任务（task）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Visual Studio Code设置任务（task）.md"
+                "file": "编程/Visual Studio Code设置任务（task）.md"
               }
             }
           },
@@ -169,11 +169,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bb95b0cca9b32511",
+  "active": "53097c71d29baa44",
   "lastOpenFiles": [
-    "编程/CMake/CMake导入第三方库具体流程.md",
-    "Visual Studio Code设置任务（task）.md",
     "编程/CMake/find_package().md",
+    "编程/CMake/CMake导入第三方库具体流程.md",
+    "编程/Visual Studio Code设置任务（task）.md",
     "安装软件/Ubunut20.04安装高版本CMake.md",
     "游戏/饥荒联机版.md",
     "编程/CMake",
