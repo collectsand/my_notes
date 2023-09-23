@@ -6,6 +6,7 @@
   "monospaceFontFamily": "Cascadia Code",
   "enabledCssSnippets": [
     "Warmth",
-    "obsidian"
+    "obsidian",
+    "page-width"
   ]
 }
