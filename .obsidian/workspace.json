@@ -25,30 +25,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程/Visual Studio Code设置任务（task）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "55b02e9341badaed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "编程/终端使用技巧.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f91928f5b7fa32a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "编程/ROS/catkin_package{}.md",
                 "mode": "source",
                 "source": false
@@ -56,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,13 +169,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "53097c71d29baa44",
+  "active": "bb95b0cca9b32511",
   "lastOpenFiles": [
+    "编程/Visual Studio Code设置任务（task）.md",
     "编程/终端使用技巧.md",
     "编程/ROS/catkin_package{}.md",
     "未命名",
     "编程/ROS",
-    "编程/Visual Studio Code设置任务（task）.md",
     "编程/CMake/find_package().md",
     "编程/CMake/CMake导入第三方库具体流程.md",
     "安装软件/Ubunut20.04安装高版本CMake.md",
