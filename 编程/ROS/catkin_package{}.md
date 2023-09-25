@@ -33,3 +33,13 @@ catkin_package()中的CATKIN_DEPENDS用于指定一个ROS软件包需要依赖�
 4. 在链接目标时,CMake也会将依赖包的库文件正确地链接上。
 
 所以CATKIN_DEPENDS的作用就是声明该软件包依赖哪些其他catkin包,这样CMake可以根据依赖关系图进行正确的编译和链接,确保不同软件包之间的依赖关系得到满足。
+
+## 注意事项
+
+**CATKIN_DEPENDS** 中的依赖项必须在 **package.xml** 中被指定为
+
+CMake Error at /opt/ros/noetic/share/catkin/cmake/catkin_package.cmake:224 (message):
+
+\[cmake]   catkin_package() DEPENDS on the catkin package 'message_generation' which
+
+\[cmake]   must therefore be listed as a run dependency in the package.xml
