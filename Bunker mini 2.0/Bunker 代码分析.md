@@ -1,6 +1,6 @@
 # bunker_base_node.cpp
 
-## 按步骤解释一下bunker_base_node.cpp这个文件的执行流程:
+## 一、按步骤解释一下bunker_base_node.cpp这个文件的执行流程:
 
 1. 引入头文件,包括ROS、bunker相关接口等
 2. 定义退出处理函数DetachRobot
