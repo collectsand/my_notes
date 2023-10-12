@@ -33,3 +33,24 @@ node_modules/
 
 ## 查看已追踪的文件
 
+可以使用以下几个命令来查看Git当前已经追踪的文件:
+
+1. git ls-files
+
+这个命令将显示Git当前正在追踪的所有文件,也就是已经加入到仓库中的文件。
+
+2. git ls-tree -r master --name-only
+
+这个命令显示在master分支下所有被追踪的文件,去掉其他提交信息只显示文件名。
+
+3. git ls-tree -r HEAD --name-only
+
+显示在当前提交(HEAD)所包含的所有追踪文件。
+
+4. git diff --name-status
+
+显示与上次提交相比被修改或者新增的文件。
+
+此外,可以通过查看.git文件夹内的index文件来看被追踪的文件列表。
+
+使用这些命令可以方便地查看当前仓库中都有哪些文件被Git所管理和追踪,从而确认.gitignore的设置是否正确。如果发现有不需要追踪的文件,可以用git rm --cached \<file\>停止追踪指定的文件,然后添加到.gitignore中。
