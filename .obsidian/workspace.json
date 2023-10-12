@@ -73,6 +73,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Bunker mini 2.0/Bunker 代码分析.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23d31d6c25704247",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "git使用.md",
                 "mode": "source",
                 "source": false
@@ -92,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -229,13 +241,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2f4e37fd8c99af4d",
+  "active": "23d31d6c25704247",
   "lastOpenFiles": [
+    "Bunker mini 2.0/Bunker常用节点.md",
     "Bunker mini 2.0/Bunker 代码分析.md",
-    "git使用.md",
-    "Bunker mini 2.0",
     "编程/ROS/ROS的回调函数.md",
     "编程/ROS/catkin_package{}.md",
+    "git使用.md",
+    "Bunker mini 2.0",
     "编程/CMake/find_package().md",
     "编程/CMake/CMake导入第三方库具体流程.md",
     "编程/C++/运算符重载的一些疑问.md",
