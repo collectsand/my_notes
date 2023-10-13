@@ -68,12 +68,40 @@ node_modules/
 
 使用这些命令可以方便地查看当前仓库中都有哪些文件被Git所管理和追踪,从而确认.gitignore的设置是否正确。如果发现有不需要追踪的文件,可以用git rm --cached \<file\>停止追踪指定的文件,然后添加到.gitignore中。
 
-# 标签(tag)
+# 标签(tag) 
 
-## 新建标签
+参见 https://git-scm.com/book/zh/v2/Git-%E5%9F%BA%E7%A1%80-%E6%89%93%E6%A0%87%E7%AD%BE
+
+## 常用操作
+### 新建标签
 
 在当前分支上新建标签
 
 ```
 git tag <tagname>
+```
+
+### 轻量标签
+
+另一种给提交打标签的方式是使用轻量标签。 轻量标签本质上是将提交校验和存储到一个文件中——没有保存任何其他信息。 创建轻量标签，不需要使用 `-a`、`-s` 或 `-m` 选项，只需要提供标签名字：
+
+```console
+$ git tag v1.4-lw
+$ git tag
+v0.1
+v1.3
+v1.4
+v1.4-lw
+v1.5
+```
+
+这时，如果在标签上运行 `git show`，你不会看到额外的标签信息。 命令只会显示出提交信息：
+
+```console
+$ git show v1.4-lw
+commit ca82a6dff817ec66f44342007202690a93763949
+Author: Scott Chacon <schacon@gee-mail.com>
+Date:   Mon Mar 17 21:52:11 2008 -0700
+
+    changed the version number
 ```
