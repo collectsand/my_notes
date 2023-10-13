@@ -1,7 +1,49 @@
 
+# 查看状态
+
+### 查看状态
+
+```
+git status
+```
+
+### 列出所有追踪的文件
+
+可以使用以下几个命令来查看Git当前已经追踪的文件:
+
+```
+git ls-files
+```
+
+这个命令将显示Git当前正在追踪的所有文件,也就是已经加入到仓库中的文件。
+
+```
+git ls-tree -r master --name-onl
+```
+
+这个命令显示在master分支下所有被追踪的文件,去掉其他提交信息只显示文件名。
+
+```
+git ls-tree -r HEAD --name-only
+```
+
+显示在当前提交(HEAD)所包含的所有追踪文件。
+
+```
+git diff --name-status
+```
+
+显示与上次提交相比被修改或者新增的文件。
+
+此外,可以通过查看.git文件夹内的index文件来看被追踪的文件列表。
+
+使用这些命令可以方便地查看当前仓库中都有哪些文件被Git所管理和追踪,从而确认.gitignore的设置是否正确。
+
+如果发现有不需要追踪的文件,可以用git rm --cached \<file\>停止追踪指定的文件,然后添加到.gitignore中。
+
 # 远程仓库(github)
 
-## 删除远程仓库的标签
+### 删除远程仓库的标签
 
 ```
 git push origin --delete <tagname>
@@ -14,7 +56,7 @@ git remote -v
 ```
 # .gitignore
 
-## 编写规则
+### 编写规则
 
 1. 每行指定一个需要忽略的文件路径或模式,路径区分大小写。
 2. 可以使用通配符,例如 * 表示任意多个字符,? 表示一个字符。
@@ -44,7 +86,7 @@ node_modules/
 
 **需要注意的是,被追踪的文件即使后来在 .gitignore 中被忽略了,也不会从仓库中消失,需要用 git rm 删除。**
 
-## 查看已追踪的文件
+### 查看已追踪的文件
 
 可以使用以下几个命令来查看Git当前已经追踪的文件:
 
@@ -73,6 +115,7 @@ node_modules/
 参见 https://git-scm.com/book/zh/v2/Git-%E5%9F%BA%E7%A1%80-%E6%89%93%E6%A0%87%E7%AD%BE
 
 ## 常用操作
+
 ### 新建标签
 
 在当前分支上新建标签
@@ -104,4 +147,31 @@ Author: Scott Chacon <schacon@gee-mail.com>
 Date:   Mon Mar 17 21:52:11 2008 -0700
 
     changed the version number
+```
+
+### 删除标签
+
+要删除掉你本地仓库上的标签，可以使用命令 `git tag -d <tagname>`。 例如，可以使用以下命令删除一个轻量标签：
+
+```console
+$ git tag -d v1.4-lw
+Deleted tag 'v1.4-lw' (was e7d5add)
+```
+
+注意上述命令并不会从任何远程仓库中移除这个标签，你必须用 `git push <remote> :refs/tags/<tagname>` 来更新你的远程仓库：
+
+第一种变体是 `git push <remote> :refs/tags/<tagname>` ：
+
+```console
+$ git push origin :refs/tags/v1.4-lw
+To /git@github.com:schacon/simplegit.git
+ - [deleted]         v1.4-lw
+```
+
+上面这种操作的含义是，将冒号前面的空值推送到远程标签名，从而高效地删除它。
+
+第二种更直观的删除远程标签的方式是：
+
+```console
+$ git push origin --delete <tagname>
 ```
