@@ -1,3 +1,17 @@
+
+# 远程仓库(github)
+
+## 删除远程仓库的标签
+
+```
+git push origin -d <tagname>
+```
+
+列出远程仓库
+
+```
+git remote -v
+```
 # .gitignore
 
 ## 编写规则
@@ -53,3 +67,13 @@ node_modules/
 此外,可以通过查看.git文件夹内的index文件来看被追踪的文件列表。
 
 使用这些命令可以方便地查看当前仓库中都有哪些文件被Git所管理和追踪,从而确认.gitignore的设置是否正确。如果发现有不需要追踪的文件,可以用git rm --cached \<file\>停止追踪指定的文件,然后添加到.gitignore中。
+
+# 标签(tag)
+
+## 新建标签
+
+在当前分支上新建标签
+
+```
+git tag <tagname>
+```
