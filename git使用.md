@@ -4,7 +4,7 @@
 ## 删除远程仓库的标签
 
 ```
-git push origin -d <tagname>
+git push origin --delete <tagname>
 ```
 
 列出远程仓库
