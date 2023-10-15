@@ -92,6 +92,16 @@
             }
           },
           {
+            "id": "75adf27961ecdaf7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
+          },
+          {
             "id": "d5df851f6d56ba1a",
             "type": "leaf",
             "state": {
@@ -104,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -241,7 +251,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "23d31d6c25704247",
+  "active": "75adf27961ecdaf7",
   "lastOpenFiles": [
     "编程/ROS/ROS的回调函数.md",
     "编程/ROS/catkin_package{}.md",
