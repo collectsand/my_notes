@@ -1,3 +1,3 @@
-参见 https://wiki.ros.org/catkin/CMakeLists.txt ^66ed7b
+参见 https://wiki.ros.org/catkin/CMakeLists.txt 
 
-# 
+# 依赖问题
