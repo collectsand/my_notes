@@ -12,6 +12,8 @@
 
 # 常用操作
 
+使用自定义msg和自定义srv时需要使用add_dependencies配置正确的编译关系，使msg和srv在target之前编译
+
 使用自定义msg时，添加这一行
 
 ```cmake
