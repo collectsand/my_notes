@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "安装软件/Ubuntu20.04安装LLVM全家桶.md",
+                "file": "ROS/ROS依赖问题.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2fcf9bbdcf4dd352",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test/给你唐完了.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "安装软件/Ubuntu20.04安装LLVM全家桶.md",
+                "file": "test/给你唐完了.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "安装软件/Ubuntu20.04安装LLVM全家桶.md",
+                "file": "test/给你唐完了.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "安装软件/Ubuntu20.04安装LLVM全家桶.md"
+                "file": "test/给你唐完了.md"
               }
             }
           },
@@ -157,24 +171,27 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8626722731e73511",
+  "active": "2fcf9bbdcf4dd352",
   "lastOpenFiles": [
-    "ROS/ROS的回调函数.md",
-    "ROS/CMakeLists.txt.md",
-    "ROS/ROS依赖问题.md",
+    "CMake/依赖问题.md",
+    "CMake/find_package().md",
+    "CMake/CMake导入第三方库具体流程.md",
     "Bunker mini 2.0/Bunker常用节点.md",
+    "Bunker mini 2.0/Bunker 代码分析.md",
+    "ROS/参数服务器.md",
+    "ROS/ROS依赖问题.md",
+    "ROS/CMakeLists.txt.md",
+    "ROS/ROS的回调函数.md",
+    "ROS/catkin_package{}.md",
+    "安装软件/Ubuntu20.04安装LLVM全家桶.md",
     "游戏/饥荒联机版.md",
     "C++/运算符重载的一些疑问.md",
-    "CMake/依赖问题.md",
     "git.md",
     "VSCode设置任务（task）.md",
     "终端.md",
     "test/给你唐完了.md",
     "编程/Visual Studio Code设置任务（task）.md",
-    "ROS/catkin_package{}.md",
     "ROS",
-    "CMake/find_package().md",
-    "CMake/CMake导入第三方库具体流程.md",
     "CMake",
     "C++",
     "编程/终端使用技巧.md",
@@ -185,12 +202,9 @@
     "编程/CMake/依赖问题.md",
     "编程/CMake/CMake导入第三方库具体流程.md",
     "编程/CMake/find_package().md",
-    "Bunker mini 2.0/Bunker 代码分析.md",
     "Bunker mini 2.0",
-    "编程/C++/运算符重载的一些疑问.md",
     "编程/C++",
     "编程/ROS",
-    "安装软件/Ubunut20.04安装高版本CMake.md",
     "编程/CMake",
     "编程",
     "安装软件",
