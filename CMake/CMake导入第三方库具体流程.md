@@ -36,3 +36,4 @@ cmake -G "Visual Studio 16 2019" ..
 到此就完成了通过导入目标的方式链接 OpenCV 库。整个过程使用了 find_package,target_link_libraries 和导入的目标,避免了include目录和库文件的硬编码。
 
 这就是现代CMake面向目标的编程方式,通过导入配置文件获取目标信息,然后使用目标进行链接,可以简化依赖管理,是C++项目中使用第三方库的推荐方式。
+
