@@ -1,12 +1,11 @@
 {
   "accentColor": "",
   "theme": "moonstone",
-  "cssTheme": "Things",
+  "cssTheme": "Blue Topaz",
   "baseFontSize": 19,
   "monospaceFontFamily": "Cascadia Code",
   "enabledCssSnippets": [
     "Warmth",
-    "obsidian",
-    "page-width"
+    "obsidian"
   ]
 }

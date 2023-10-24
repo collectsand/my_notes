@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CMake/依赖问题.md",
+                "file": "安装软件/Ubuntu20.04安装LLVM全家桶.md",
                 "mode": "source",
-                "backlinks": true,
+                "backlinks": false,
                 "source": false
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMake/依赖问题.md",
+                "file": "安装软件/Ubuntu20.04安装LLVM全家桶.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CMake/依赖问题.md",
+                "file": "安装软件/Ubuntu20.04安装LLVM全家桶.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CMake/依赖问题.md"
+                "file": "安装软件/Ubuntu20.04安装LLVM全家桶.md"
               }
             }
           },
@@ -140,7 +140,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -158,16 +159,18 @@
   },
   "active": "8626722731e73511",
   "lastOpenFiles": [
+    "ROS/ROS的回调函数.md",
+    "ROS/CMakeLists.txt.md",
     "ROS/ROS依赖问题.md",
+    "Bunker mini 2.0/Bunker常用节点.md",
+    "游戏/饥荒联机版.md",
+    "C++/运算符重载的一些疑问.md",
     "CMake/依赖问题.md",
     "git.md",
     "VSCode设置任务（task）.md",
     "终端.md",
     "test/给你唐完了.md",
-    "C++/运算符重载的一些疑问.md",
     "编程/Visual Studio Code设置任务（task）.md",
-    "ROS/ROS的回调函数.md",
-    "ROS/CMakeLists.txt.md",
     "ROS/catkin_package{}.md",
     "ROS",
     "CMake/find_package().md",
@@ -182,14 +185,12 @@
     "编程/CMake/依赖问题.md",
     "编程/CMake/CMake导入第三方库具体流程.md",
     "编程/CMake/find_package().md",
-    "Bunker mini 2.0/Bunker常用节点.md",
     "Bunker mini 2.0/Bunker 代码分析.md",
     "Bunker mini 2.0",
     "编程/C++/运算符重载的一些疑问.md",
     "编程/C++",
     "编程/ROS",
     "安装软件/Ubunut20.04安装高版本CMake.md",
-    "游戏/饥荒联机版.md",
     "编程/CMake",
     "编程",
     "安装软件",
