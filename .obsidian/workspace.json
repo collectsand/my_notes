@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VSCode设置任务（task）.md",
+                "file": "git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VSCode设置任务（task）.md",
+                "file": "git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VSCode设置任务（task）.md",
+                "file": "git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VSCode设置任务（task）.md"
+                "file": "git.md"
               }
             }
           },
@@ -156,12 +156,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "53097c71d29baa44",
+  "active": "8626722731e73511",
   "lastOpenFiles": [
+    "VSCode设置任务（task）.md",
     "git.md",
     "终端.md",
     "test/给你唐完了.md",
-    "VSCode设置任务（task）.md",
     "C++/运算符重载的一些疑问.md",
     "编程/Visual Studio Code设置任务（task）.md",
     "ROS/ROS的回调函数.md",
