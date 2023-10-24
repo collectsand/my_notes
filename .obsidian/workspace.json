@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git.md",
+                "file": "ROS/ROS依赖问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git.md",
+                "file": "ROS/ROS依赖问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git.md",
+                "file": "ROS/ROS依赖问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git.md"
+                "file": "ROS/ROS依赖问题.md"
               }
             }
           },
@@ -143,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,8 +157,9 @@
   },
   "active": "8626722731e73511",
   "lastOpenFiles": [
-    "VSCode设置任务（task）.md",
+    "CMake/依赖问题.md",
     "git.md",
+    "VSCode设置任务（task）.md",
     "终端.md",
     "test/给你唐完了.md",
     "C++/运算符重载的一些疑问.md",
@@ -169,7 +169,6 @@
     "ROS/CMakeLists.txt.md",
     "ROS/catkin_package{}.md",
     "ROS",
-    "CMake/依赖问题.md",
     "CMake/find_package().md",
     "CMake/CMake导入第三方库具体流程.md",
     "CMake",
