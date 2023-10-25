@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROS/ROS依赖问题.md",
+                "file": "终端软件.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ROS/ROS依赖问题.md",
+                "file": "终端软件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ROS/ROS依赖问题.md",
+                "file": "终端软件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROS/ROS依赖问题.md"
+                "file": "终端软件.md"
               }
             }
           },
@@ -169,12 +169,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8626722731e73511",
+  "active": "53097c71d29baa44",
   "lastOpenFiles": [
-    "ROS/ROS的回调函数.md",
-    "ROS/CMakeLists.txt.md",
-    "CMake/依赖问题.md",
     "ROS/ROS依赖问题.md",
+    "ROS/CMakeLists.txt.md",
+    "终端软件.md",
+    "ROS/ROS的回调函数.md",
+    "CMake/依赖问题.md",
     "ROS/catkin_package{}.md",
     "CMake/find_package().md",
     "CMake/CMake导入第三方库具体流程.md",
@@ -189,7 +190,6 @@
     "C++/运算符重载的一些疑问.md",
     "git.md",
     "VSCode设置任务（task）.md",
-    "终端.md",
     "编程/Visual Studio Code设置任务（task）.md",
     "ROS",
     "CMake",
