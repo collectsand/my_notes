@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/内存.md",
+                "file": "计算机/汇编常见寄存器.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/内存.md",
+                "file": "计算机/汇编常见寄存器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/内存.md",
+                "file": "计算机/汇编常见寄存器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/内存.md"
+                "file": "计算机/汇编常见寄存器.md"
               }
             }
           },
@@ -171,8 +171,9 @@
   },
   "active": "8626722731e73511",
   "lastOpenFiles": [
-    "安装软件/Ubuntu20.04安装LLVM全家桶.md",
     "计算机/内存.md",
+    "计算机/汇编常见寄存器.md",
+    "安装软件/Ubuntu20.04安装LLVM全家桶.md",
     "计算机",
     "云端收藏夹",
     "安装软件/Ubunut20.04安装高版本CMake.md",
@@ -202,7 +203,6 @@
     "编程/ROS/CMakeLists.txt.md",
     "编程/ROS/ROS依赖问题.md",
     "编程/ROS/ROS的回调函数.md",
-    "编程/CMake/依赖问题.md",
     "Bunker mini 2.0",
     "编程/C++",
     "编程/ROS",
