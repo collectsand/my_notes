@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "安装软件/Ubuntu20.04安装LLVM全家桶.md",
+                "file": "计算机/内存.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "安装软件/Ubuntu20.04安装LLVM全家桶.md",
+                "file": "计算机/内存.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "安装软件/Ubuntu20.04安装LLVM全家桶.md",
+                "file": "计算机/内存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "安装软件/Ubuntu20.04安装LLVM全家桶.md"
+                "file": "计算机/内存.md"
               }
             }
           },
@@ -169,11 +169,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "53097c71d29baa44",
+  "active": "8626722731e73511",
   "lastOpenFiles": [
+    "安装软件/Ubuntu20.04安装LLVM全家桶.md",
+    "计算机/内存.md",
+    "计算机",
     "云端收藏夹",
     "安装软件/Ubunut20.04安装高版本CMake.md",
-    "安装软件/Ubuntu20.04安装LLVM全家桶.md",
     "终端软件.md",
     "ROS/ROS依赖问题.md",
     "ROS/CMakeLists.txt.md",
@@ -205,8 +207,6 @@
     "编程/C++",
     "编程/ROS",
     "编程/CMake",
-    "编程",
-    "安装软件",
-    "test"
+    "编程"
   ]
 }
