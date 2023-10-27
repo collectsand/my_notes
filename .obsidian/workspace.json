@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "a521f40fa32f2713",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机/操作系统.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2fcf9bbdcf4dd352",
             "type": "leaf",
             "state": {
@@ -33,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/汇编常见寄存器.md",
+                "file": "计算机/操作系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/汇编常见寄存器.md",
+                "file": "计算机/操作系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/汇编常见寄存器.md"
+                "file": "计算机/操作系统.md"
               }
             }
           },
@@ -169,10 +183,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8626722731e73511",
+  "active": "a521f40fa32f2713",
   "lastOpenFiles": [
-    "计算机/内存.md",
+    "ROS/ROS的回调函数.md",
+    "计算机/操作系统.md",
     "计算机/汇编常见寄存器.md",
+    "计算机/内存.md",
     "安装软件/Ubuntu20.04安装LLVM全家桶.md",
     "计算机",
     "云端收藏夹",
@@ -180,7 +196,6 @@
     "终端软件.md",
     "ROS/ROS依赖问题.md",
     "ROS/CMakeLists.txt.md",
-    "ROS/ROS的回调函数.md",
     "CMake/依赖问题.md",
     "ROS/catkin_package{}.md",
     "CMake/find_package().md",
@@ -202,7 +217,6 @@
     "编程/ROS/catkin_package{}.md",
     "编程/ROS/CMakeLists.txt.md",
     "编程/ROS/ROS依赖问题.md",
-    "编程/ROS/ROS的回调函数.md",
     "Bunker mini 2.0",
     "编程/C++",
     "编程/ROS",
