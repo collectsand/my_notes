@@ -185,8 +185,9 @@
   },
   "active": "a521f40fa32f2713",
   "lastOpenFiles": [
-    "计算机/操作系统.md",
+    "计算机/8086汇编.md",
     "计算机/汇编常见寄存器.md",
+    "计算机/操作系统.md",
     "计算机/内存.md",
     "ROS/ROS的回调函数.md",
     "安装软件/Ubuntu20.04安装LLVM全家桶.md",
@@ -216,7 +217,6 @@
     "编程/终端使用技巧.md",
     "编程/ROS/catkin_package{}.md",
     "编程/ROS/CMakeLists.txt.md",
-    "编程/ROS/ROS依赖问题.md",
     "Bunker mini 2.0",
     "编程/C++",
     "编程/ROS",
