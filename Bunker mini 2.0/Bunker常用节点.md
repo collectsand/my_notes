@@ -36,4 +36,5 @@ bunker状态数据,bunker_msgs/BunkerStatus类型。
 
 摄像头图像,sensor_msgs/Image类型。
 
-这些是bunker在导航、控制、定位、感知等过程中常用的ROS标准话题类型。可以用于接入bunker的传感器信息,以及发送控制指令。
+这些是 bunker 在导航、控制、定位、感知等过程中常用的 ROS 标准话题类型。可以用于接入 bunker 的传感器信息,以及发送控制指令。
+

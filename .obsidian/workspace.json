@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/启动相关（随手记的杂物）.md",
+                "file": "Bunker mini 2.0/Bunker常用节点.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/启动相关（随手记的杂物）.md",
+                "file": "Bunker mini 2.0/Bunker常用节点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/启动相关（随手记的杂物）.md",
+                "file": "Bunker mini 2.0/Bunker常用节点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/启动相关（随手记的杂物）.md"
+                "file": "Bunker mini 2.0/Bunker常用节点.md"
               }
             }
           },
@@ -186,8 +186,8 @@
   },
   "active": "a521f40fa32f2713",
   "lastOpenFiles": [
-    "计算机/8086汇编（随手记的杂物）.md",
     "计算机/启动相关（随手记的杂物）.md",
+    "计算机/8086汇编（随手记的杂物）.md",
     "游戏/饥荒联机版.md",
     "计算机/内存（随手记的杂物）.md",
     "计算机/操作系统.md",
