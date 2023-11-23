@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux终端.md",
+                "file": "ROS/跳过的课程.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux终端.md",
+                "file": "ROS/跳过的课程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux终端.md",
+                "file": "ROS/跳过的课程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux终端.md"
+                "file": "ROS/跳过的课程.md"
               }
             }
           },
@@ -186,10 +186,10 @@
   },
   "active": "a521f40fa32f2713",
   "lastOpenFiles": [
+    "ROS/ROS依赖问题.md",
+    "linux终端.md",
     "VSCode设置任务（task）.md",
     "ROS/跳过的课程.md",
-    "linux终端.md",
-    "ROS/ROS依赖问题.md",
     "ROS/参数服务器.md",
     "ROS/catkin_package{}.md",
     "ROS/CMakeLists.txt.md",
