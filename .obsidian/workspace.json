@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "6095fcce1d09628c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ROS/仿真要注意的几个小问题.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2fcf9bbdcf4dd352",
             "type": "leaf",
             "state": {
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ROS/跳过的课程.md",
+                "file": "ROS/仿真要注意的几个小问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ROS/跳过的课程.md",
+                "file": "ROS/仿真要注意的几个小问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROS/跳过的课程.md"
+                "file": "ROS/仿真要注意的几个小问题.md"
               }
             }
           },
@@ -184,12 +197,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a521f40fa32f2713",
+  "active": "6095fcce1d09628c",
   "lastOpenFiles": [
+    "ROS/跳过的课程.md",
+    "ROS/仿真要注意的几个小问题.md",
     "ROS/ROS依赖问题.md",
     "linux终端.md",
     "VSCode设置任务（task）.md",
-    "ROS/跳过的课程.md",
     "ROS/参数服务器.md",
     "ROS/catkin_package{}.md",
     "ROS/CMakeLists.txt.md",
@@ -215,7 +229,6 @@
     "test/给你唐完了.md",
     "C++/运算符重载的一些疑问.md",
     "git.md",
-    "编程/Visual Studio Code设置任务（task）.md",
     "ROS",
     "CMake",
     "C++",
